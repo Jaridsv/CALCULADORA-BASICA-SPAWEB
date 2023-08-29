@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <p align="right"><B>28/Agosto/2023</p></B>
+
+<MARQUEE BEHAVIOR=slide bgcolor="skyblue"><p align="CENTER"><font size="20" color="blue" face="ARIAL">PRACTICA 1 - CALCULADORA BASICA</font></p>
+</MARQUEE> 
+  
+  </head>
+
+  <body>
+    
+
+    <form action="" id="micalculadora" method="post"style="background-color:grey; display:block; border-style:solid; width: 250px; height:300px; padding: 10px; border-radius: 7%;"> 
+      
+      <p style="color: navy;"> Numero 1 </p>
+      <input type="number" name="numero1" id="valor1" autofocus placeholder="Escribe un numero">  <button onclick="limpiar();"> Limpiar campos </button>
+      <p style="color: navy;"> Numero 2 </p>
+      <input type="number" name="numero2" id="valor2" autofocus placeholder="Escribe un numero"> <button type="button" onclick="listo()"disable>Ejecutar</button>
+<br><br><br>
+ 
+      
+<select name="operacion" size="1" id="select"> 
+  <option value="No seleccionaste ninguna">Seleccione una opcion </option>
+  <option value="Suma">Suma </option>
+  <option value="Resta">Resta </option>
+  <option value="Multiplicar">Multiplicar </option>
+   <option value="Dividir">Dividir </option> 
+   
+   
+   <input type="text" name="resultado" id="resultado" autofocus placeholder="El resultado es:">
+         
+  </form>
+  
+    <script src="funciones/funciones.js"></script>
+
+  </body>
+</html>
